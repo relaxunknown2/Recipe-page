@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+.flex-container {
+    background-color: #f3e5d8;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-box {
+    background-color: white;
+    border-radius: 14px;
+    max-width: 650px;
+    padding: 30px;
+    margin: 40px;
+    margin-bottom: 70px;
+}
+
+img {
+    border-radius: 14px;
+    height: 280px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.child2 h1 {
+    font-family: "Young Serif";
+    color: #353432;
+}
+
+.child2 p {
+    font-family: "Outfit";
+    color: #66605c;
+}
+
+.child3 {
+    background-color: #fff7fc;
+    color: #7e455e;
+    font-family: "Outfit";
+    font-weight: 400;
+    border-radius: 8px;
+    padding: 12px;
+}
+
+.child3 h2 {
+    margin-left: 26px;
+}
+
+.child3 ul {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #605651;
+}
+
+.child4 h2 {
+    color: #804934;
+    font-family: "Young Serif";
+    font-weight: 500;
+    font-size: 1.5em;
+}
+
+.child4 ul {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    color: #353432;
+    font-family: "Outfit";
+}
+
+hr {
+    border: 1px solid #ececec;
+}
+
+.child5 h2 {
+    color: #804934;
+    font-family: "Young Serif";
+    font-weight: 500;
+    font-size: 1.5em;
+}
+
+.child5 ol {
+    font-family: "Outfit";
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    color: #353432;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+/* bolding list text */
+span {
+    font-weight: bold;
+}
+
+.child6 h2 {
+    color: #804934;
+    font-family: "Young Serif";
+    font-weight: 500;
+    font-size: 1.5em;
+}
+
+
+.child6 p {
+    font-family: "Outfit";
+    color: #353432;
+}
+
+.child6 .statistics {
+    width: 100%;
+    border-collapse: collapse;
+    border: none;
+    font-family: "Outfit";
+    color: #605651;
+}
+
+table tr td {
+    border-bottom: 1px solid ;
+    padding: 15px;
+    margin-bottom: 5px;
+}
+
+table tr:last-child  td {
+    border: none;
+}
+
+.attribution {
+    width: 100%;
+    text-align: center;
+    font-family: "Outfit";
+    color: #605651;
+    font-size: 1em;
+}
+
+.attribution a {
+    text-decoration: none;
+    color: #7e455e;
+}
+
+.attribution a:hover {
+    color: blueviolet;
+}
+
+
+
